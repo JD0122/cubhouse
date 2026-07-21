@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 
 :root {
-  /* Warm cream/ivory background */
-  --background: hsl(40, 50%, 98%);
-  /* Deep espresso foreground */
-  --foreground: hsl(28, 10%, 21%);
-  
-  /* Terracotta primary */
-  --primary: hsl(15, 65%, 57%);
-  --primary-foreground: hsl(0, 0%, 100%);
-  
-  /* Sage green secondary */
-  --secondary: hsl(104, 11%, 56%);
-  --secondary-foreground: hsl(0, 0%, 100%);
-  
-  /* Golden yellow accent */
-  --accent: hsl(40, 89%, 61%);
-  --accent-foreground: hsl(28, 10%, 21%);
-  
+  /* Autumn / neutral palette */
+  --background: #F5F2EE; /* soft warm cream */
+  --foreground: #2E2A26; /* deep brown/charcoal */
+
+  /* Burnt orange / terracotta primary */
+  --primary: #B85A2F; /* warm burnt orange */
+  --primary-foreground: #FFFFFF;
+
+  /* Olive / forest green secondary */
+  --secondary: #6B7A39; /* muted olive green */
+  --secondary-foreground: #FFFFFF;
+
+  /* Soft golden accent */
+  --accent: #C99A3D; /* muted gold */
+  --accent-foreground: #2E2A26;
+
   --app-font-sans: 'DM Sans', sans-serif;
   --app-font-serif: 'Fraunces', serif;
 }
